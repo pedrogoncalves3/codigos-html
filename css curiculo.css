@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 1;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 300px;    
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-branco-monocromatico-de-estilo-de-papel_52683-66443.jpg?semt=ais_hybrid&w=740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+}
+
+h1 {
+    color: #000000; 
+    font-size: 48px;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+h3 {
+    color: #f80101; 
+    font-size: 20px;
+    margin-bottom: 10px; 
+    text-align: block;
+}
+
+
+a {
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    
+}
+
+p {
+    color: #000000;
+    font-size: 18px;
+    margin: 1 auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+hr {
+    margin: 10px;
+}
+
+ul {
+    border: 1px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+ol {
+    border: 1px;
+    padding: 10px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,8 @@
+alinhar nomes
+h1{
+    color = cor 
+    font-size = tamanho da fonte
+    text-align = alinhamento dos textos
+    padding = preenchimento
+    font-size: 18px; = aumentar fonte
+}
