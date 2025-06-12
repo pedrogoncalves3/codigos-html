@@ -1,0 +1,82 @@
+* {
+    padding: 1;
+    margin: 1;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    display: center;
+    width: 300px;    
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(data:image/jpeg;base64,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);
+    margin: 20px;
+    background-color: aliceblue;
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+}
+
+
+
+
+.container {
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: rgb(252, 252, 252);
+    max-width: 400px;
+    margin: 200px 0;
+    margin-inline: 120px;
+    text-align: center;
+    
+} 
+
+.container input[type="number"] {
+    padding: 10px;
+    margin-bottom: 17px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    font-size: 15px;
+    
+    
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container label {
+    color:rgb(0, 0, 0)
+
+} 
+
+
+#resultadoTabuada {
+   text-align: center;
+   padding: 20px;
+   border-width: thin;
+   border: none;
+   border-color: rgb(0, 0, 0);
+   border-block-start-style: inset;
+ 
+
+}
+

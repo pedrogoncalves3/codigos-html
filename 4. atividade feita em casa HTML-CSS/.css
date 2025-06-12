@@ -1,0 +1,141 @@
+/* Reset Básico */
+* {
+    padding: 0; /* Changed from 1 to 0 for a more standard reset */
+    margin: 0; /* Changed from 1 to 0 for a more standard reset */
+    box-sizing: border-box;
+}
+
+/* Estilos para a imagem (se for um logo ou elemento central) */
+img {
+    display: block; /* Ensures it takes up its own line */
+    width: 250px; /* Slightly smaller for better visual balance */
+    margin: 30px auto 20px auto; /* Centers the image and adds more top/bottom margin */
+    border-radius: 8px; /* Slightly rounded corners for a modern touch */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Estilos do Body (o contêiner principal para centralizar tudo) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais moderna */
+    background-image: url(data:image/jpeg;base64,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); /* A imagem de fundo */
+    background-color: #f0f2f5; /* Cor de fundo suave para complementar a imagem */
+    color: #333; /* Cor de texto padrão mais escura para melhor legibilidade */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px; /* Padding geral para o corpo */
+
+    /* Centralização com Flexbox */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+    overflow-y: auto; /* Permite scroll se o conteúdo for muito longo */
+}
+
+/* Contêiner principal da sua interface */
+.container {
+    background-color: #d6d3d3; /* Fundo branco para o container */
+    padding: 30px;
+    border-radius: 15px; /* Bordas mais arredondadas para um toque moderno */
+    max-width: 450px; /* Aumenta um pouco a largura máxima */
+    width: 90%; /* Responsivo: ocupa 90% da largura disponível */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada e moderna */
+    text-align: center;
+    font-size: 17px; /* Aumenta um pouco o tamanho da fonte */
+    margin: 0 auto; /* Centraliza o container dentro do flexbox do body */
+    display: flex; /* Transforma o container em flex container */
+    flex-direction: column; /* Organiza os itens em coluna */
+    gap: 15px; /* Espaçamento entre os elementos filhos do container */
+}
+
+.container h1 { /* Adicionei um estilo para um possível título */
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Estilos para inputs de número */
+.container input[type="number"] {
+    padding: 12px 15px; /* Mais padding para maior área de clique e visual */
+    margin-bottom: 15px; /* Ajuste no espaçamento */
+    border: 1px solid #ccc; /* Borda mais suave */
+    border-radius: 8px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte ligeiramente maior */
+    width: calc(100% - 30px); /* Ocupa a largura total menos o padding */
+    outline: none; /* Remove a borda de foco padrão */
+    transition: border-color 0.3s ease; /* Transição suave na borda */
+}
+
+.container input[type="number"]:focus {
+    border-color: #007bff; /* Borda azul ao focar */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Sombra suave ao focar */
+}
+
+/* Estilos para botões */
+button {
+    background-color: #007bff; /* Azul vibrante */
+    color: white;
+    padding: 12px 25px; /* Mais padding */
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer;
+    font-size: 18px; /* Fonte maior */
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transições suaves */
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2); /* Sombra para o botão */
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de "levantar" */
+}
+
+button:active {
+    transform: translateY(0); /* Retorna à posição original ao clicar */
+    box-shadow: 0 2px 5px rgba(0, 123, 255, 0.3); /* Sombra menor ao clicar */
+}
+
+/* Estilos para labels */
+.container label {
+    color: #555; /* Cor de texto mais suave para labels */
+    font-weight: 500;
+    text-align: left; /* Alinha o texto da label à esquerda (se precisar) */
+    width: 100%; /* Ocupa a largura total */
+}
+
+/* Estilos para o resultado da tabuada */
+#resultadoTabuada {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd; /* Borda mais suave e moderna */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Fundo levemente cinza */
+    margin-top: 20px; /* Espaçamento superior */
+    color: #333; /* Cor de texto para o resultado */
+    font-size: 18px; /* Tamanho da fonte do resultado */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); /* Sombra sutil */
+}
+
+/* Responsividade básica */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        border-radius: 10px;
+    }
+    img {
+        width: 200px;
+    }
+    .container h1 {
+        font-size: 24px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    #resultadoTabuada {
+        font-size: 16px;
+    }
+}
